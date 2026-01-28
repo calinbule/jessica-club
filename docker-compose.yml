@@ -2,7 +2,7 @@ services:
   web:
     build: .
     ports:
-      - "8181:80"
+      - "8008:80"
     volumes:
       - ./index.html:/usr/share/nginx/html/index.html:ro
     restart: unless-stopped
